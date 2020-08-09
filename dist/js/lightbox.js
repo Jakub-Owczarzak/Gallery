@@ -44,7 +44,7 @@
     albumLabel: 'Zdjęcie %1 of %2',
     alwaysShowNavOnTouchDevices: true,
     fadeDuration: 600,
-    fitImagesInViewport: true,
+    fitImagesInViewport: false,
     imageFadeDuration: 600,
     // maxWidth: 800,
     // maxHeight: 600,
