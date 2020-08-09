@@ -1,0 +1,72 @@
+.gallery {
+  min-width: 100vw;
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.gallery .title {
+  padding: 20px 0;
+  font-size: 3vw;
+}
+
+.gallery .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 80vw;
+}
+
+.gallery .images a {
+  -ms-flex-preferred-size: calc(50% - 20px);
+      flex-basis: calc(50% - 20px);
+  margin: 10px 10px;
+  background-color: green;
+  -webkit-box-shadow: 0 0 3px 3px cadetblue;
+          box-shadow: 0 0 3px 3px cadetblue;
+  border-radius: 20px;
+}
+
+.gallery .images a img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  .gallery {
+    width: 100vw;
+  }
+  .gallery .title {
+    padding: 20px 0;
+    font-size: 5vw;
+  }
+  .gallery .images {
+    width: 190vw;
+  }
+  .gallery .images a {
+    -ms-flex-preferred-size: calc(100% - 20px);
+        flex-basis: calc(100% - 20px);
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: seashell;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
